@@ -31,7 +31,7 @@ const options = {
 
 // https://astro.build/config
 export default defineConfig({
-	site: 'https://astro-tech-blog-ten.vercel.app/',
+	site: 'https://virgilemarty.fr/',
 
 	markdown: {
 		syntaxHighlight: false,
@@ -42,6 +42,7 @@ export default defineConfig({
 
 	integrations: [react(), sitemap()],
 	output: 'static',
+	outDir: 'docs',
 
 	adapter: vercelStatic({
 		webAnalytics: {
