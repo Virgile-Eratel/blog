@@ -5,17 +5,16 @@ import Section from './Section.astro';
 <Section>
 	<div class="flex items-center justify-between">
 		<div class="text-3xl font-bold">
-			<a href="/"
-				>💻 <span class="pr-2 text-2xl text-gray-500">{'<'}</span>astro<span class="text-orange-600"
-					>.</span
-				>js<span class="pl-2 text-2xl text-gray-500">{'/>'}</span></a
-			>
+			<a href="/" class="flex gap-2">
+				<img src="/images/iconEratel.jpg" class="size-9 rounded-full"  alt="icon blog"/>
+				<span>Virgile<span class="text-orange-600">.</span>Eratel</span>
+			</a>
 		</div>
 		<div class="flex items-center">
 			<!-- Desktop Navigation -->
 			<nav>
 				<ul class="hidden flex-row sm:flex">
-					<li><a href="/tags" class="mr-3 hover:text-orange-600">TAGS</a></li>
+					<li><a href="/tags" class="mr-3 hover:text-orange-600">CATEGORIES</a></li>
 					<li><a href="/" class="hover:text-orange-600">BLOG</a></li>
 				</ul>
 			</nav>
@@ -67,7 +66,7 @@ import Section from './Section.astro';
 		class="mt-4 hidden rounded-lg border border-gray-200 bg-white pb-2 shadow-md transition-all duration-300 sm:hidden dark:border-gray-200 dark:bg-stone-900"
 	>
 		<nav class="flex flex-col p-3">
-			<a href="/tags" class="border-b border-gray-200 py-2 hover:text-orange-600">TAGS</a>
+			<a href="/tags" class="border-b border-gray-200 py-2 hover:text-orange-600">CATEGORIES</a>
 			<a href="/" class="border-b border-gray-200 py-2 hover:text-orange-600">BLOG</a>
 
 			<!-- Mobile Theme Switcher -->
