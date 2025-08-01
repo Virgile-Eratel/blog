@@ -42,7 +42,7 @@ export default defineConfig({
 
 	integrations: [react(), sitemap()],
 	output: 'static',
-	outDir: 'docs',
+	outDir: 'dist',
 
 	adapter: vercelStatic({
 		webAnalytics: {
