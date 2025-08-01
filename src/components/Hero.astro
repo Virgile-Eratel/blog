@@ -1,19 +1,27 @@
 ---
 import Section from './Section.astro';
 import Social from './Social.astro';
+import Badge from './Badge.astro';
 ---
 
 <Section>
-	<br />
-	<p class="pb-2 pt-6 text-4xl font-bold">Bienvenue</p>
-	<div class="text-sm">
-		<p class="py-2">
-			Je suis <span class="font-black text-orange-600">Virgile</span>, étudiant en développement web (M1) que je fait en alternance depuis 2023.
-		</p>
-		<p class="py-2">
-			Je fait également beaucoup de vélo en peloton sur Rennes avec <a class="font-black text-orange-600 underline" href="https://www.tagrandmereavelo.com/">Ta Grand Mère à vélo</a>.
-		</p>
-	</div>
+	<div class="flex flex-col gap-4 text-sm">
+	<h1 class="pb-2 pt-6 text-4xl font-bold">Bienvenue</h1>
+			<p>
+				Je m'appel <span class="font-black text-orange-600">Virgile</span>, étudiant en M1 Développement Web en alternance depuis 2023. J’ai débuté chez
+				<a class="font-black text-orange-600 underline" href="https://www.darva.com/fr//">DARVA</a> puis j’ai rejoint
+				<a class="font-black text-orange-600 underline" href="https://www.bt-blue.com/">BT-Blue</a>, où je travail sur le SI et développe des outils interne.
+			</p>
+			<div class="flex flex-wrap gap-2">
+				<Badge text="Typescript" variant="primary" size="sm" />
+				<Badge text="React" variant="primary" size="sm" />
+				<Badge text="Node.js" variant="primary" size="sm" />
+			</div>
+
+			<p>
+				Mais vous pouvez aussi me trouver sur un vélo dans le peloton de <a class="font-black text-orange-600 underline" href="https://www.tagrandmereavelo.com/">Ta Grand Mère à vélo</a> autours de Rennes !
+			</p>
+
 	<div class="flex">
 		<Social href="https://github.com/Virgile-Eratel">
 			<svg
@@ -39,5 +47,6 @@ import Social from './Social.astro';
 				></path>
 			</svg>
 		</Social>
+	</div>
 	</div>
 </Section>
