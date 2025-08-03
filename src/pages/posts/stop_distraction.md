@@ -10,6 +10,7 @@ image:
   src:
   alt:
 tags: ["discipline"]
+spotifyEmbed: "https://open.spotify.com/embed/episode/3uLKdXWGQhxqaiDUkMw1bN"
 ---
 
 ### Blocage de distractions : 
