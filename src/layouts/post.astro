@@ -21,13 +21,14 @@ const { frontmatter } = Astro.props;
 			img={{ src: frontmatter.image.src, alt: frontmatter.image.alt }}
 		/>
 		{frontmatter.spotifyEmbed && (
-			<iframe
-				style="border-radius:12px"
-				src={frontmatter.spotifyEmbed}
-				width="100%"
-				height="232"
-				allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture">
-			</iframe>
+			<div class="mx-4 mb-6">
+				<iframe
+					class="rounded-xl w-full"
+					src={frontmatter.spotifyEmbed}
+					height="232"
+					allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture">
+				</iframe>
+			</div>
 		)}
 		<PostContent><slot /></PostContent>
 	</div>
