@@ -6,12 +6,7 @@ interface Props {
 	class?: string;
 }
 
-const {
-	text,
-	variant = 'primary',
-	size = 'md',
-	class: className = ''
-} = Astro.props;
+const { text, variant = 'primary', size = 'md', class: className = '' } = Astro.props;
 
 const badgeSizeClasses = {
 	sm: 'px-2 py-0.5 text-xs',
@@ -20,7 +15,7 @@ const badgeSizeClasses = {
 };
 
 const badgeVariantClasses = {
-	primary: 'bg-orange-100 text-orange-800 dark:bg-orange-900 dark:text-orange-200',
+	primary: 'bg-stone-600 text-white dark:bg-orange-900 dark:text-orange-200',
 	secondary: 'bg-gray-100 text-gray-800 dark:bg-gray-700 dark:text-gray-200',
 	accent: 'bg-orange-200 text-orange-900 dark:bg-orange-800 dark:text-orange-100',
 	success: 'bg-green-100 text-green-800 dark:bg-green-900 dark:text-green-200',
@@ -35,5 +30,5 @@ const badgeVariant = badgeVariantClasses[variant];
 <span
 	class={`inline-flex items-center rounded-full ${badgeSize} ${badgeVariant} font-medium ${className}`}
 >
-  {text}
+	{text}
 </span>
