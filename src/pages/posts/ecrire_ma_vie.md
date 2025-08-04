@@ -10,6 +10,7 @@ image:
   src: "/images/PXL_20250802_184301342.webp"
   alt: "photos de mes carnets"
 tags: ["discipline"]
+spotifyEmbed: "https://open.spotify.com/embed/episode/0K4o0tRX22ZEcOsOngGxxY?utm_source=generator"
 ---
 
 # Il y a un an
