@@ -17,8 +17,40 @@ spotifyEmbed: "https://open.spotify.com/embed/episode/3uLKdXWGQhxqaiDUkMw1bN"
 - Réseaux sociaux
 - Sites de streaming (films/anime)
 - Tout élément susceptible de consommer mon temps sans que je l'aie décidé
+---
+# Update 19/11/2025
 
-# Mes actions
+Beaucoup de choses ont changé depuis quelques mois, mes méthodes de contrôle ont évolué, c'est pourquoi je veux en faire part ici.
+
+## Sur mobile 📱
+
+J'utilise un [Google Pixel 8](https://support.google.com/pixelphone/answer/7158570?hl=fr#zippy=%2Cpixel) qui tourne sous Android, ce qui me permet d'aller plus loin dans la personnalisation du système que des téléphones sous iOS, ce que je vais expliquer est donc uniquement valable pour les téléphones Android.
+
+## Modification du launcher pour [**Indistractable**](https://www.indistractable.xyz/)
+Le launcher c'est ce qui gère une partie importante de l'affichage du téléphone.
+
+<div class="my-4">
+  <p class="text-center">Il transforme l'interface du téléphone comme ça :</p>
+  <div class="flex flex-col md:flex-row md:gap-18 items-center justify-center">
+    <img src="/images/imagePixel.webp" alt="Interface launcher Pixel" title="Interface avec le launcher Pixel" class="rounded-lg shadow-xl max-h-96 max-w-full" />
+    <img src="/images/imageIndistractable.webp" alt="Interface launcher Indistractable" title="Interface avec le launcher Indistractable" class="rounded-lg shadow-xl max-h-96 max-w-full" />
+  </div>
+</div>
+
+Cette interface simpliste me permet d'utiliser mon téléphone pour une action prédéfinie avant son ouverture, rien ne distrait l'utilisateur entre l'ouverture du téléphone et la réalisation de sa tâche.
+<br>
+L'installation du launcher est simple et le retour arrière est possible à tout moment.
+
+## Application [**Ascent**](https://ascent-app.com/)
+Cette application permet d'ajouter un **timer avant d'accéder à certaines applications** choisies. Je l'ai mis en place pour lutter contre un comportement que j'avais, le fait d'ouvrir presque frénétiquement Strava, mes mails et rafraîchir en boucle. En ajoutant un timer avant l'ouverture de ces applications, le comportement s'est effacé.
+
+## Suppression de presque toutes les notifications 🔔
+Les seules notifications que j'ai gardées sont celles des messages directs sur mes différentes applications, et celles de mes tâches [Google Tasks](https://tasks.google.com/tasks/). Mis à part ces deux cas je n'ai plus de notifications sur mon téléphone.
+
+
+---
+# Post original 30/07/2025
+
 
 ## Sur mobile 📱
 **Désinstallation des applications** distrayantes et utilisation de l'application **[StayFree](https://stayfreeapps.com/)**.
@@ -74,7 +106,8 @@ Pour remédier à cela, j'ai ajouté un flag `schg` sur le fichier `/etc/hosts`,
     ```bash
     sudo killall -HUP mDNSResponder
     ```
-- Ajoutez le flag `schg` (⚠️ assurez-vous d'avoir listé tous les sites avant)
+⚠️ **Je ne recommande pas l’étape suivante si vous n’avez pas de solides bases en informatique** (enlever le flag sur Mac est très complexe)
+- Ajoutez le flag `schg` (assurez-vous d'avoir listé tous les sites avant)
     ```bash
     sudo chflags schg /etc/hosts
     ```
