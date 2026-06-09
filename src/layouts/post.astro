@@ -4,9 +4,9 @@ import Base from '@/layouts/Base.astro';
 import PostHeader from '@/components/PostHeader.astro';
 import PostContent from '@/components/PostContent.astro';
 
-const { description } = AppConfig;
-
 const { frontmatter } = Astro.props;
+
+const description = frontmatter.description ?? AppConfig.description;
 ---
 
 <Base head={{ title: frontmatter.title, description }}>
