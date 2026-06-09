@@ -2,25 +2,131 @@
 layout: ../../layouts/post.astro
 title: "Comment j'ai contrôlé mon addiction aux distractions"
 pubDate: 2025-07-30
-description: "Comment j'ai réussi à reprendre le contrôle de mon temps en réduisant les distractions."
+description: "Bloquer les distractions numériques sur mobile et PC : les méthodes et applications que j'utilise pour réduire mon temps d'écran et rester concentré au quotidien."
 author: "Virgile"
 isPinned: false
-excerpt: Découvrez les méthodes concrètes que j'ai utilisées pour limiter les distractions numériques et reprendre le contrôle de mon temps au quotidien
+excerpt: "J'ai testé beaucoup d'applications et de réglages pour bloquer les distractions sur mon téléphone et mon PC. Voici ce qui a marché pour moi, et comment ça a évolué."
 image:
   src:
   alt:
-tags: ["discipline"]
+tags: ["discipline", "productivité"]
 spotifyEmbed: "https://open.spotify.com/embed/episode/3uLKdXWGQhxqaiDUkMw1bN"
 ---
 
-### Blocage de distractions : 
+### Ce que j'appelle distraction : 
 - Réseaux sociaux
-- Sites de streaming (films/anime)
+- Sites de streaming
+- Jeux vidéo
 - Tout élément susceptible de consommer mon temps sans que je l'aie décidé
 ---
-# Update 19/11/2025
 
-Beaucoup de choses ont changé depuis quelques mois, mes méthodes de contrôle ont évolué, c'est pourquoi je veux en faire part ici.
+### Chronologiquement
+
+<div class="not-prose my-10 text-stone-700 dark:text-stone-300">
+  <p class="mb-6 text-xs text-stone-400 dark:text-stone-500"><span class="font-semibold text-stone-700 dark:text-stone-200">gras</span> = encore utilisé&nbsp;·&nbsp;<span class="text-stone-400 line-through decoration-stone-300 dark:text-stone-500 dark:decoration-stone-600">barré</span> = remplacé&nbsp;·&nbsp;<span class="text-sky-600 dark:text-sky-400">mbl</span> mobile&nbsp;·&nbsp;<span class="text-amber-600 dark:text-amber-400">pc</span> ordinateur</p>
+  <ol class="relative ms-1 space-y-8 border-s border-stone-300 dark:border-stone-700">
+    <li class="ms-7">
+      <span class="absolute -start-[5px] mt-2 h-2.5 w-2.5 rounded-full bg-stone-300 dark:bg-stone-600"></span>
+      <div class="flex items-baseline gap-2.5">
+        <time class="text-sm font-semibold text-stone-900 dark:text-white">2025.07.30</time>
+      </div>
+      <ul class="mt-2.5 space-y-1.5">
+        <li class="flex flex-wrap items-baseline gap-x-2.5"><span class="w-6 shrink-0 text-[10px] tracking-wide text-sky-600/80 uppercase dark:text-sky-400/80">mbl</span><a href="#désinstallation-des-applications" class="font-semibold text-stone-800 underline-offset-4 transition-colors hover:text-orange-600 hover:underline hover:decoration-orange-400/50 dark:text-stone-100 dark:hover:text-orange-400">Désinstallation des apps</a><span class="text-sm text-stone-400 dark:text-stone-500">fondation, jamais réinstallées</span></li>
+        <li class="flex flex-wrap items-baseline gap-x-2.5"><span class="w-6 shrink-0 text-[10px] tracking-wide text-sky-600/80 uppercase dark:text-sky-400/80">mbl</span><a href="#stayfree" class="text-stone-400 line-through decoration-stone-300 transition-colors hover:text-orange-500 dark:text-stone-500 dark:decoration-stone-600 dark:hover:text-orange-400">StayFree</a><span class="text-sm text-stone-400 dark:text-stone-500">→ Ascent</span></li>
+        <li class="flex flex-wrap items-baseline gap-x-2.5"><span class="w-6 shrink-0 text-[10px] tracking-wide text-amber-600/80 uppercase dark:text-amber-400/80">pc</span><a href="#extensions-chrome" class="font-semibold text-stone-800 underline-offset-4 transition-colors hover:text-orange-600 hover:underline hover:decoration-orange-400/50 dark:text-stone-100 dark:hover:text-orange-400">Extensions Chrome</a><span class="text-sm text-stone-400 dark:text-stone-500">uBlock, Unhook, Twitch cleaner</span></li>
+        <li class="flex flex-wrap items-baseline gap-x-2.5"><span class="w-6 shrink-0 text-[10px] tracking-wide text-amber-600/80 uppercase dark:text-amber-400/80">pc</span><a href="#fichier-etchost" class="text-stone-400 line-through decoration-stone-300 transition-colors hover:text-orange-500 dark:text-stone-500 dark:decoration-stone-600 dark:hover:text-orange-400">/etc/hosts + schg</a><span class="text-sm text-stone-400 dark:text-stone-500">→ FocusServer</span></li>
+      </ul>
+    </li>
+    <li class="ms-7">
+      <span class="absolute -start-[5px] mt-2 h-2.5 w-2.5 rounded-full bg-stone-300 dark:bg-stone-600"></span>
+      <div class="flex items-baseline gap-2.5">
+        <time class="text-sm font-semibold text-stone-900 dark:text-white">2025.11.19</time>
+      </div>
+      <ul class="mt-2.5 space-y-1.5">
+        <li class="flex flex-wrap items-baseline gap-x-2.5"><span class="w-6 shrink-0 text-[10px] tracking-wide text-sky-600/80 uppercase dark:text-sky-400/80">mbl</span><a href="#application-ascent" class="text-stone-400 line-through decoration-stone-300 transition-colors hover:text-orange-500 dark:text-stone-500 dark:decoration-stone-600 dark:hover:text-orange-400">Ascent</a><span class="text-sm text-stone-400 dark:text-stone-500">→ ScreenZen</span></li>
+        <li class="flex flex-wrap items-baseline gap-x-2.5"><span class="w-6 shrink-0 text-[10px] tracking-wide text-sky-600/80 uppercase dark:text-sky-400/80">mbl</span><a href="#modification-du-launcher-pour-indistractable" class="font-semibold text-stone-800 underline-offset-4 transition-colors hover:text-orange-600 hover:underline hover:decoration-orange-400/50 dark:text-stone-100 dark:hover:text-orange-400">Launcher Indistractable</a><span class="text-sm text-stone-400 dark:text-stone-500">interface épurée</span></li>
+        <li class="flex flex-wrap items-baseline gap-x-2.5"><span class="w-6 shrink-0 text-[10px] tracking-wide text-sky-600/80 uppercase dark:text-sky-400/80">mbl</span><a href="#suppression-de-presque-toutes-les-notifications" class="font-semibold text-stone-800 underline-offset-4 transition-colors hover:text-orange-600 hover:underline hover:decoration-orange-400/50 dark:text-stone-100 dark:hover:text-orange-400">Notifications coupées</a><span class="text-sm text-stone-400 dark:text-stone-500">sauf DM &amp; Tasks</span></li>
+      </ul>
+    </li>
+    <li class="ms-7">
+      <span class="absolute -start-[5px] mt-2 h-2.5 w-2.5 rounded-full bg-stone-300 dark:bg-stone-600"></span>
+      <div class="flex items-baseline gap-2.5">
+        <time class="text-sm font-semibold text-stone-900 dark:text-white">2025.11.27</time>
+      </div>
+      <ul class="mt-2.5 space-y-1.5">
+        <li class="flex flex-wrap items-baseline gap-x-2.5"><span class="w-6 shrink-0 text-[10px] tracking-wide text-amber-600/80 uppercase dark:text-amber-400/80">pc</span><a href="#sur-pc" class="text-stone-400 line-through decoration-stone-300 transition-colors hover:text-orange-500 dark:text-stone-500 dark:decoration-stone-600 dark:hover:text-orange-400">FocusServer</a><span class="text-sm text-stone-400 dark:text-stone-500">outil perso, évolution de /etc/hosts → Cold Turkey</span></li>
+      </ul>
+    </li>
+    <li class="ms-7">
+      <span class="absolute -start-[5px] mt-2 h-2.5 w-2.5 rounded-full bg-stone-300 dark:bg-stone-600"></span>
+      <div class="flex items-baseline gap-2.5">
+        <time class="text-sm font-semibold text-stone-900 dark:text-white">2026.04.01</time>
+      </div>
+      <ul class="mt-2.5 space-y-1.5">
+        <li class="flex flex-wrap items-baseline gap-x-2.5"><span class="w-6 shrink-0 text-[10px] tracking-wide text-amber-600/80 uppercase dark:text-amber-400/80">pc</span><a href="#application-cold-turkey" class="font-semibold text-stone-800 underline-offset-4 transition-colors hover:text-orange-600 hover:underline hover:decoration-orange-400/50 dark:text-stone-100 dark:hover:text-orange-400">Cold Turkey</a><span class="text-sm text-stone-400 dark:text-stone-500">licence 35€, 3 groupes, très dur à contourner</span></li>
+      </ul>
+    </li>
+    <li class="ms-7">
+      <span class="absolute -start-[5px] mt-2 h-2.5 w-2.5 rounded-full bg-orange-500 dark:bg-orange-400"></span>
+      <div class="flex items-baseline gap-2.5">
+        <time class="text-sm font-semibold text-orange-600 dark:text-orange-400">2026.04.09</time>
+      </div>
+      <ul class="mt-2.5 space-y-1.5">
+        <li class="flex flex-wrap items-baseline gap-x-2.5"><span class="w-6 shrink-0 text-[10px] tracking-wide text-sky-600/80 uppercase dark:text-sky-400/80">mbl</span><a href="#application-screenzen" class="font-semibold text-stone-800 underline-offset-4 transition-colors hover:text-orange-600 hover:underline hover:decoration-orange-400/50 dark:text-stone-100 dark:hover:text-orange-400">ScreenZen</a><span class="text-sm text-stone-400 dark:text-stone-500">4 groupes, remplace Ascent (batterie)</span></li>
+      </ul>
+    </li>
+  </ol>
+</div>
+
+# Update 07/06/2026
+
+## Sur mobile 📱
+
+J'utilise toujours le launcher [**Indistractable**](https://www.indistractable.xyz/), et mes notifications sont presque toutes supprimées. 
+
+La modification importante depuis le [19/11/2025](#update-19112025). J'ai remplacé l'application [**Ascent**](https://ascent-app.com/) par [**ScreenZen**](https://screenzen.co/). J'avais observé un problème d'optimisation dans Ascent qui dévorait la batterie très rapidement, d'où le changement.
+
+## Application [**ScreenZen**](https://screenzen.co/)
+
+Quatre groupes de blocage :
+
+1. **20 s d'attente** (avec une raison à écrire, fermeture automatique après 15 min) : uniquement **Chrome**.
+2. **12 s d'attente** : les applications que j'ouvre par pulsion (**Strava, Gmail, Discord, WhatsApp**...).
+3. **Blocage horaire**, sur les mêmes plages que [Cold Turkey](#application-cold-turkey) : les sites qui me distraient (**YouTube, Twitch, Reddit**...).
+4. **Blocage total** : tous les sites pornographiques.
+
+<div className="w-full flex justify-center">
+<img src="/images/stop_distraction/screenZen1.png" alt="Panneau blocages screenZen" title="Panneau blocages screenZen" class="rounded-lg shadow-xl max-h-96 max-w-full" />
+</div>
+
+
+
+## Sur PC 💻
+
+J'ai longtemps essayé de développer un outil qui permet de bloquer des sites sur mon Mac, et j'ai fini par en créer un qui fonctionne très bien.
+[FocusServer](https://github.com/Virgile-Eratel/focusServer) permet de bloquer une liste de sites définie sur des horaires définis.
+Je l'ai longtemps utilisé mais étant donné que je l'ai développé je connais toutes les manières de passer outre. Donc au final il ne permet pas de régler mon problème.
+
+### Application [**Cold Turkey**](https://getcoldturkey.com/)
+
+J'ai donc choisi de payer 35 euros pour une licence payante Cold Turkey, ce qui permet de créer des plages de blocages d'applications et de sites. À noter qu'une version gratuite est aussi disponible et fonctionne très bien.
+Cette application est pensée pour être très dure à contourner, donc après plusieurs jours de configuration avec les failles que j'ai pu trouver, les contournements étaient en grande partie plus possibles.
+Juste en termes d'exemple de contournement bloqué, j'ai utilisé **VMware Fusion** pour ouvrir ma VM Windows et accéder aux sites bloqués. Il suffit alors de bloquer également l'application **VMware Fusion** sur les plages non autorisées et problème réglé. 
+
+#### Configuration Cold Turkey
+
+![alt text](/images/stop_distraction/coldTurkey1.png)
+
+Trois groupes de blocage :
+
+- **Général** : les sites chronophages que je veux éviter (YouTube, Reddit...). Toujours actif, sauf deux fenêtres autorisées : 12h-13h30 et 18h-20h.
+- **All** : bloque tous les sites, quelle que soit leur nature. Il me sert de rappel pour éteindre le Mac le soir : il se déclenche à 22h30 (désactivable), puis à 23h (non désactivable).
+- **Porn** : tous les sites pornographiques. Toujours actif. Le seul moyen de le désactiver est de taper 250 caractères aléatoires sans se tromper. Autant dire que je ne le fais jamais.
+
+![alt text](/images/stop_distraction/coldTurkey2.png) 
+
+
+# Update 19/11/2025
 
 ## Sur mobile 📱
 
@@ -32,8 +138,8 @@ Le launcher c'est ce qui gère une partie importante de l'affichage du télépho
 <div class="my-4">
   <p class="text-center">Il transforme l'interface du téléphone comme ça :</p>
   <div class="flex flex-col md:flex-row md:gap-18 items-center justify-center">
-    <img src="/images/imagePixel.webp" alt="Interface launcher Pixel" title="Interface avec le launcher Pixel" class="rounded-lg shadow-xl max-h-96 max-w-full" />
-    <img src="/images/imageIndistractable.webp" alt="Interface launcher Indistractable" title="Interface avec le launcher Indistractable" class="rounded-lg shadow-xl max-h-96 max-w-full" />
+    <img src="/images/stop_distraction/imagePixel.webp" alt="Interface launcher Pixel" title="Interface avec le launcher Pixel" class="rounded-lg shadow-xl max-h-96 max-w-full" />
+    <img src="/images/stop_distraction/imageIndistractable.webp" alt="Interface launcher Indistractable" title="Interface avec le launcher Indistractable" class="rounded-lg shadow-xl max-h-96 max-w-full" />
   </div>
 </div>
 
