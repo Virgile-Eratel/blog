@@ -7,7 +7,7 @@ author: "Virgile"
 isPinned: false
 excerpt: "Un an à écrire mon quotidien : comment un rituel d’écriture améliore le sommeil, aiguise la mémoire et forge une discipline."
 image:
-  src: "/images/PXL_20250802_184301342.webp"
+  src: "/images/ecrire_ma_vie/PXL_20250802_184301342.webp"
   alt: "photos de mes carnets"
 tags: ["discipline"]
 spotifyEmbed: "https://open.spotify.com/embed/episode/0K4o0tRX22ZEcOsOngGxxY?utm_source=generator"
