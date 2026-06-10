@@ -28,51 +28,51 @@ spotifyEmbed: "https://open.spotify.com/embed/episode/3uLKdXWGQhxqaiDUkMw1bN"
     <li class="ms-7">
       <span class="absolute -start-[5px] mt-2 h-2.5 w-2.5 rounded-full bg-stone-300 dark:bg-stone-600"></span>
       <div class="flex items-baseline gap-2.5">
-        <time class="text-sm font-semibold text-stone-900 dark:text-white">2025.07.30</time>
+        <time class="text-sm font-semibold text-stone-900 dark:text-white">30/07/2025</time>
       </div>
       <ul class="mt-2.5 space-y-1.5">
-        <li class="flex flex-wrap items-baseline gap-x-2.5"><span class="w-6 shrink-0 text-[10px] tracking-wide text-sky-600/80 uppercase dark:text-sky-400/80">mbl</span><a href="#désinstallation-des-applications" class="font-semibold text-stone-800 underline-offset-4 transition-colors hover:text-orange-600 hover:underline hover:decoration-orange-400/50 dark:text-stone-100 dark:hover:text-orange-400">Désinstallation des apps</a><span class="text-sm text-stone-400 dark:text-stone-500">fondation, jamais réinstallées</span></li>
+        <li class="flex flex-wrap items-baseline gap-x-2.5"><span class="w-6 shrink-0 text-[10px] tracking-wide text-sky-600/80 uppercase dark:text-sky-400/80">mbl</span><a href="#désinstallation-des-applications" class="font-semibold text-stone-800 underline-offset-4 transition-colors hover:text-orange-600 hover:underline hover:decoration-orange-400/50 dark:text-stone-100 dark:hover:text-orange-400">Désinstallation des apps</a></li>
         <li class="flex flex-wrap items-baseline gap-x-2.5"><span class="w-6 shrink-0 text-[10px] tracking-wide text-sky-600/80 uppercase dark:text-sky-400/80">mbl</span><a href="#stayfree" class="text-stone-400 line-through decoration-stone-300 transition-colors hover:text-orange-500 dark:text-stone-500 dark:decoration-stone-600 dark:hover:text-orange-400">StayFree</a><span class="text-sm text-stone-400 dark:text-stone-500">→ Ascent</span></li>
-        <li class="flex flex-wrap items-baseline gap-x-2.5"><span class="w-6 shrink-0 text-[10px] tracking-wide text-amber-600/80 uppercase dark:text-amber-400/80">pc</span><a href="#extensions-chrome" class="font-semibold text-stone-800 underline-offset-4 transition-colors hover:text-orange-600 hover:underline hover:decoration-orange-400/50 dark:text-stone-100 dark:hover:text-orange-400">Extensions Chrome</a><span class="text-sm text-stone-400 dark:text-stone-500">uBlock, Unhook, Twitch cleaner</span></li>
+        <li class="flex flex-wrap items-baseline gap-x-2.5"><span class="w-6 shrink-0 text-[10px] tracking-wide text-amber-600/80 uppercase dark:text-amber-400/80">pc</span><a href="#extensions-chrome" class="font-semibold text-stone-800 underline-offset-4 transition-colors hover:text-orange-600 hover:underline hover:decoration-orange-400/50 dark:text-stone-100 dark:hover:text-orange-400">Extensions Chrome</a></li>
         <li class="flex flex-wrap items-baseline gap-x-2.5"><span class="w-6 shrink-0 text-[10px] tracking-wide text-amber-600/80 uppercase dark:text-amber-400/80">pc</span><a href="#fichier-etchost" class="text-stone-400 line-through decoration-stone-300 transition-colors hover:text-orange-500 dark:text-stone-500 dark:decoration-stone-600 dark:hover:text-orange-400">/etc/hosts + schg</a><span class="text-sm text-stone-400 dark:text-stone-500">→ FocusServer</span></li>
       </ul>
     </li>
     <li class="ms-7">
       <span class="absolute -start-[5px] mt-2 h-2.5 w-2.5 rounded-full bg-stone-300 dark:bg-stone-600"></span>
       <div class="flex items-baseline gap-2.5">
-        <time class="text-sm font-semibold text-stone-900 dark:text-white">2025.11.19</time>
+        <time class="text-sm font-semibold text-stone-900 dark:text-white">19/11/2025</time>
       </div>
       <ul class="mt-2.5 space-y-1.5">
         <li class="flex flex-wrap items-baseline gap-x-2.5"><span class="w-6 shrink-0 text-[10px] tracking-wide text-sky-600/80 uppercase dark:text-sky-400/80">mbl</span><a href="#application-ascent" class="text-stone-400 line-through decoration-stone-300 transition-colors hover:text-orange-500 dark:text-stone-500 dark:decoration-stone-600 dark:hover:text-orange-400">Ascent</a><span class="text-sm text-stone-400 dark:text-stone-500">→ ScreenZen</span></li>
-        <li class="flex flex-wrap items-baseline gap-x-2.5"><span class="w-6 shrink-0 text-[10px] tracking-wide text-sky-600/80 uppercase dark:text-sky-400/80">mbl</span><a href="#modification-du-launcher-pour-indistractable" class="font-semibold text-stone-800 underline-offset-4 transition-colors hover:text-orange-600 hover:underline hover:decoration-orange-400/50 dark:text-stone-100 dark:hover:text-orange-400">Launcher Indistractable</a><span class="text-sm text-stone-400 dark:text-stone-500">interface épurée</span></li>
-        <li class="flex flex-wrap items-baseline gap-x-2.5"><span class="w-6 shrink-0 text-[10px] tracking-wide text-sky-600/80 uppercase dark:text-sky-400/80">mbl</span><a href="#suppression-de-presque-toutes-les-notifications" class="font-semibold text-stone-800 underline-offset-4 transition-colors hover:text-orange-600 hover:underline hover:decoration-orange-400/50 dark:text-stone-100 dark:hover:text-orange-400">Notifications coupées</a><span class="text-sm text-stone-400 dark:text-stone-500">sauf DM &amp; Tasks</span></li>
+        <li class="flex flex-wrap items-baseline gap-x-2.5"><span class="w-6 shrink-0 text-[10px] tracking-wide text-sky-600/80 uppercase dark:text-sky-400/80">mbl</span><a href="#modification-du-launcher-pour-indistractable" class="font-semibold text-stone-800 underline-offset-4 transition-colors hover:text-orange-600 hover:underline hover:decoration-orange-400/50 dark:text-stone-100 dark:hover:text-orange-400">Launcher Indistractable</a></li>
+        <li class="flex flex-wrap items-baseline gap-x-2.5"><span class="w-6 shrink-0 text-[10px] tracking-wide text-sky-600/80 uppercase dark:text-sky-400/80">mbl</span><a href="#suppression-de-presque-toutes-les-notifications" class="font-semibold text-stone-800 underline-offset-4 transition-colors hover:text-orange-600 hover:underline hover:decoration-orange-400/50 dark:text-stone-100 dark:hover:text-orange-400">Notifications coupées</a></li>
       </ul>
     </li>
     <li class="ms-7">
       <span class="absolute -start-[5px] mt-2 h-2.5 w-2.5 rounded-full bg-stone-300 dark:bg-stone-600"></span>
       <div class="flex items-baseline gap-2.5">
-        <time class="text-sm font-semibold text-stone-900 dark:text-white">2025.11.27</time>
+        <time class="text-sm font-semibold text-stone-900 dark:text-white">27/11/2025</time>
       </div>
       <ul class="mt-2.5 space-y-1.5">
-        <li class="flex flex-wrap items-baseline gap-x-2.5"><span class="w-6 shrink-0 text-[10px] tracking-wide text-amber-600/80 uppercase dark:text-amber-400/80">pc</span><a href="#sur-pc" class="text-stone-400 line-through decoration-stone-300 transition-colors hover:text-orange-500 dark:text-stone-500 dark:decoration-stone-600 dark:hover:text-orange-400">FocusServer</a><span class="text-sm text-stone-400 dark:text-stone-500">outil perso, évolution de /etc/hosts → Cold Turkey</span></li>
+        <li class="flex flex-wrap items-baseline gap-x-2.5"><span class="w-6 shrink-0 text-[10px] tracking-wide text-amber-600/80 uppercase dark:text-amber-400/80">pc</span><a href="#sur-pc" class="text-stone-400 line-through decoration-stone-300 transition-colors hover:text-orange-500 dark:text-stone-500 dark:decoration-stone-600 dark:hover:text-orange-400">FocusServer</a><span class="text-sm text-stone-400 dark:text-stone-500">→ Cold Turkey</span></li>
       </ul>
     </li>
     <li class="ms-7">
       <span class="absolute -start-[5px] mt-2 h-2.5 w-2.5 rounded-full bg-stone-300 dark:bg-stone-600"></span>
       <div class="flex items-baseline gap-2.5">
-        <time class="text-sm font-semibold text-stone-900 dark:text-white">2026.04.01</time>
+        <time class="text-sm font-semibold text-stone-900 dark:text-white">01/04/2026</time>
       </div>
       <ul class="mt-2.5 space-y-1.5">
-        <li class="flex flex-wrap items-baseline gap-x-2.5"><span class="w-6 shrink-0 text-[10px] tracking-wide text-amber-600/80 uppercase dark:text-amber-400/80">pc</span><a href="#application-cold-turkey" class="font-semibold text-stone-800 underline-offset-4 transition-colors hover:text-orange-600 hover:underline hover:decoration-orange-400/50 dark:text-stone-100 dark:hover:text-orange-400">Cold Turkey</a><span class="text-sm text-stone-400 dark:text-stone-500">licence 35€, 3 groupes, très dur à contourner</span></li>
+        <li class="flex flex-wrap items-baseline gap-x-2.5"><span class="w-6 shrink-0 text-[10px] tracking-wide text-amber-600/80 uppercase dark:text-amber-400/80">pc</span><a href="#application-cold-turkey" class="font-semibold text-stone-800 underline-offset-4 transition-colors hover:text-orange-600 hover:underline hover:decoration-orange-400/50 dark:text-stone-100 dark:hover:text-orange-400">Cold Turkey</a></li>
       </ul>
     </li>
     <li class="ms-7">
       <span class="absolute -start-[5px] mt-2 h-2.5 w-2.5 rounded-full bg-orange-500 dark:bg-orange-400"></span>
       <div class="flex items-baseline gap-2.5">
-        <time class="text-sm font-semibold text-orange-600 dark:text-orange-400">2026.04.09</time>
+        <time class="text-sm font-semibold text-orange-600 dark:text-orange-400">07/04/2026</time>
       </div>
       <ul class="mt-2.5 space-y-1.5">
-        <li class="flex flex-wrap items-baseline gap-x-2.5"><span class="w-6 shrink-0 text-[10px] tracking-wide text-sky-600/80 uppercase dark:text-sky-400/80">mbl</span><a href="#application-screenzen" class="font-semibold text-stone-800 underline-offset-4 transition-colors hover:text-orange-600 hover:underline hover:decoration-orange-400/50 dark:text-stone-100 dark:hover:text-orange-400">ScreenZen</a><span class="text-sm text-stone-400 dark:text-stone-500">4 groupes, remplace Ascent (batterie)</span></li>
+        <li class="flex flex-wrap items-baseline gap-x-2.5"><span class="w-6 shrink-0 text-[10px] tracking-wide text-sky-600/80 uppercase dark:text-sky-400/80">mbl</span><a href="#application-screenzen" class="font-semibold text-stone-800 underline-offset-4 transition-colors hover:text-orange-600 hover:underline hover:decoration-orange-400/50 dark:text-stone-100 dark:hover:text-orange-400">ScreenZen</a></li>
       </ul>
     </li>
   </ol>
