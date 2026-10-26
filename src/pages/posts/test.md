@@ -17,6 +17,6 @@ test sur pixel
 
 ![](/images/PXL_20261022_140009199.webp)
 
-![](../../assets/images/PXL_20261026_134023535.jpg)
+![](../../assets/images/PXL_20261026_134023535.webp)
 
 test 1
