@@ -24,13 +24,15 @@ jobs:
         
       - name: Optimize images & update links
         run: |
-          # Convertit toutes les images du repo en WebP (1600px max de large) sans installer aucun outil
+          sudo apt-get install -y --no-install-recommends webp > /dev/null 2>&1
+
+          # 1. Convertit toutes les images du repo en WebP (1600px max de large)
           find public src -type f \( -iname "*.jpg" -o -iname "*.jpeg" -o -iname "*.png" \) 2>/dev/null | while read -r img; do
             output="${img%.*}.webp"
             cwebp -q 80 -resize 1600 0 "$img" -o "$output" && rm "$img"
           done
 
-          # Met à jour les extensions dans tes fichiers Markdown pour garder la preview Obsidian
+          # 2. Met à jour les extensions dans tes fichiers Markdown pour garder la preview Obsidian
           find src -type f \( -name "*.md" -o -name "*.mdx" \) -exec sed -i -E 's/\.(jpg|jpeg|png)/.webp/gi' {} +
       - name: Commit optimized files back to repo
         if: github.event_name == 'push' && github.ref == 'refs/heads/main'
