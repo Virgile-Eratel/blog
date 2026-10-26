@@ -3,6 +3,12 @@ layout: ../../layouts/post.astro
 title: Test Mobile
 pubDate: 2026-10-26
 description: Test de push mobile
+author: "Virgile"
+isPinned: false
+excerpt: null
+image:
+  src: null
+  alt: null
 tags: []
 ---
 ![](/PXL_20260928_144649287.webp)
