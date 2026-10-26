@@ -7,7 +7,7 @@ on:
     branches: [ main ]
 
 permissions:
-  contents: read
+  contents: write
   pages: write
   id-token: write
 
@@ -22,10 +22,34 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
+      - name: Install ImageMagick & WebP
+        run: sudo apt-get update && sudo apt-get install -y imagemagick webp
+
+      - name: Optimize images & fix Obsidian links
+        run: |
+          # 1. Convertit les images de public/ en WebP (1600px max, rotation EXIF auto)
+          find public -type f \( -iname "*.jpg" -o -iname "*.jpeg" -o -iname "*.png" \) | while read -r img; do
+            output="${img%.*}.webp"
+            convert "$img" -auto-orient -resize "1600x>" -quality 80 -define webp:lossless=false "$output" && rm "$img"
+          done
+
+          # 2. Corrige les liens Markdown d'Obsidian (gère les dossiers public/images/ ou racine public/)
+          find src -type f \( -name "*.md" -o -name "*.mdx" \) | while read -r md; do
+            # Si tes images sont dans public/images/ :
+            sed -i -E 's/!\[([^]]*)\]\((public\/)?(images\/)?([^)/]+)\.(jpg|jpeg|png)\)/![\1](\/images\/\4.webp)/gi' "$md"
+          done
+
+      - name: Commit optimized files back to repo
+        if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: optimize images to webp [skip ci]"
+          file_pattern: 'public/** src/**'
+
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '18'
+          node-version: '22'
           cache: 'npm'
 
       - name: Install dependencies
