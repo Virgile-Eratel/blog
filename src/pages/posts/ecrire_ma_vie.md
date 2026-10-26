@@ -5,7 +5,7 @@ pubDate: 2025-08-03
 description: "Comment l’écriture quotidienne dans un carnet a renforcé ma mémoire, amélioré mon sommeil et ravivé mes souvenirs."
 author: "Virgile"
 isPinned: false
-excerpt: "Un an à écrire mon quotidien : comment un rituel d’écriture améliore le sommeil, aiguise la mémoire et forge une discipline."
+excerpt: "Un an à écrire mon quotidien : comment un rituel d’écriture améliore le sommeil, aiguise la mémoire et forge une discipline. "
 image:
   src: "/images/ecrire_ma_vie/PXL_20250802_184301342.webp"
   alt: "photos de mes carnets"
