@@ -1,4 +1,5 @@
 ---
+layout: ../../layouts/post.astro
 title: Test Mobile
 pubDate: 2026-10-26
 description: Test de push mobile
