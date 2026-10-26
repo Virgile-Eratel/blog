@@ -29,7 +29,7 @@ const isPinned = post.frontmatter.isPinned === true;
 						<p class="font-bold">{post.frontmatter.minutesRead}</p>
 					</div>
 				</div>
-				<Tags tags={post.frontmatter.tags} />
+				<Tags tags={post.frontmatter.tags || []} />
 			</div>
 		</div>
 	</div>
