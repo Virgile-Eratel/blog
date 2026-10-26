@@ -11,8 +11,11 @@ image:
   alt: null
 tags: []
 ---
-![](/PXL_20260928_144649287.webp)
+
 test sur pixel
 # titre 1
 
 ![](/images/PXL_20261022_140009199.webp)
+
+![](../../assets/images/PXL_20261026_134023535.jpg)
+
