@@ -21,4 +21,4 @@ test sur pixel
 
 test 12
 
-![](../../assets/images/PXL_20261024_101644601.jpg)
+![](../../assets/images/PXL_20261024_101644601.webp)
