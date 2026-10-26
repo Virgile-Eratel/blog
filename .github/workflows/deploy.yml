@@ -24,15 +24,14 @@ jobs:
         
       - name: Optimize images & update links
         run: |
-          # 1. Convertit les photos de src/assets (et public/) en WebP 1600px max
+          # Convertit toutes les images du repo en WebP (1600px max de large) sans installer aucun outil
           find public src -type f \( -iname "*.jpg" -o -iname "*.jpeg" -o -iname "*.png" \) 2>/dev/null | while read -r img; do
             output="${img%.*}.webp"
-            convert "$img" -auto-orient -resize "1600x>" -quality 80 -define webp:lossless=false "$output" && rm "$img"
+            cwebp -q 80 -resize 1600 0 "$img" -o "$output" && rm "$img"
           done
 
-          # 2. Change uniquement l'extension .jpg/.png en .webp dans tes .md (garde le chemin relatif intact pour la preview Obsidian)
+          # Met à jour les extensions dans tes fichiers Markdown pour garder la preview Obsidian
           find src -type f \( -name "*.md" -o -name "*.mdx" \) -exec sed -i -E 's/\.(jpg|jpeg|png)/.webp/gi' {} +
-
       - name: Commit optimized files back to repo
         if: github.event_name == 'push' && github.ref == 'refs/heads/main'
         uses: stefanzweifel/git-auto-commit-action@v5
