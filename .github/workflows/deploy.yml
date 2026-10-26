@@ -22,19 +22,16 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
         
-      - name: Optimize images & fix Obsidian links
+      - name: Optimize images & update links
         run: |
-          # 1. Convertit les images de public/ en WebP (1600px max, rotation EXIF auto)
-          find public -type f \( -iname "*.jpg" -o -iname "*.jpeg" -o -iname "*.png" \) | while read -r img; do
+          # 1. Convertit les photos de src/assets (et public/) en WebP 1600px max
+          find public src -type f \( -iname "*.jpg" -o -iname "*.jpeg" -o -iname "*.png" \) 2>/dev/null | while read -r img; do
             output="${img%.*}.webp"
             convert "$img" -auto-orient -resize "1600x>" -quality 80 -define webp:lossless=false "$output" && rm "$img"
           done
 
-          # 2. Corrige les liens Markdown d'Obsidian (gère les dossiers public/images/ ou racine public/)
-          find src -type f \( -name "*.md" -o -name "*.mdx" \) | while read -r md; do
-            # Si tes images sont dans public/images/ :
-            sed -i -E 's/!\[([^]]*)\]\((public\/)?(images\/)?([^)/]+)\.(jpg|jpeg|png)\)/![\1](\/images\/\4.webp)/gi' "$md"
-          done
+          # 2. Change uniquement l'extension .jpg/.png en .webp dans tes .md (garde le chemin relatif intact pour la preview Obsidian)
+          find src -type f \( -name "*.md" -o -name "*.mdx" \) -exec sed -i -E 's/\.(jpg|jpeg|png)/.webp/gi' {} +
 
       - name: Commit optimized files back to repo
         if: github.event_name == 'push' && github.ref == 'refs/heads/main'
