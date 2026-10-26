@@ -21,10 +21,7 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-
-      - name: Install ImageMagick & WebP
-        run: sudo apt-get update && sudo apt-get install -y imagemagick webp
-
+        
       - name: Optimize images & fix Obsidian links
         run: |
           # 1. Convertit les images de public/ en WebP (1600px max, rotation EXIF auto)
