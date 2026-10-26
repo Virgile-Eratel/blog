@@ -96,7 +96,7 @@ Quatre groupes de blocage :
 4. **Blocage total** : tous les sites pornographiques.
 
 <div className="w-full flex justify-center">
-<img src="/images/stop_distraction/screenZen1.png" alt="Panneau blocages screenZen" title="Panneau blocages screenZen" class="rounded-lg shadow-xl max-h-96 max-w-full" />
+<img src="/images/stop_distraction/screenZen1.webp" alt="Panneau blocages screenZen" title="Panneau blocages screenZen" class="rounded-lg shadow-xl max-h-96 max-w-full" />
 </div>
 
 
@@ -115,7 +115,7 @@ Juste en termes d'exemple de contournement bloqué, j'ai utilisé **VMware Fusio
 
 #### Configuration Cold Turkey
 
-![alt text](/images/stop_distraction/coldTurkey1.png)
+![alt text](/images/stop_distraction/coldTurkey1.webp)
 
 Trois groupes de blocage :
 
@@ -123,7 +123,7 @@ Trois groupes de blocage :
 - **All** : bloque tous les sites, quelle que soit leur nature. Il me sert de rappel pour éteindre le Mac le soir : il se déclenche à 22h30 (désactivable), puis à 23h (non désactivable).
 - **Porn** : tous les sites pornographiques. Toujours actif. Le seul moyen de le désactiver est de taper 250 caractères aléatoires sans se tromper. Autant dire que je ne le fais jamais.
 
-![alt text](/images/stop_distraction/coldTurkey2.png) 
+![alt text](/images/stop_distraction/coldTurkey2.webp) 
 
 
 # Update 19/11/2025
