@@ -1,7 +1,8 @@
 ---
-title: "Test Mobile"
+title: Test Mobile
 pubDate: 2026-10-26
-description: "Test de push mobile"
+description: Test de push mobile
+tags:
 ---
 ![](/PXL_20260928_144649287.webp)
 test sur pixel
