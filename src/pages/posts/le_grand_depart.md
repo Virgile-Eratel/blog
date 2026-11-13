@@ -8,7 +8,7 @@ isPinned: false
 excerpt: "Ainsi je pars en Asie du Sud-est avec un sac de 5kg pour une durée inconnue"
 image:
   src: "Photo du contenu de mon sac"
-  alt: "../../assets/images/PXL_20261112_145931942.jpg"
+  alt: "../../assets/images/PXL_20261112_145931942.webp"
 tags: ["Voyage"]
 ---
 
@@ -21,7 +21,7 @@ Cependant la ligne directrice, toute fine soit elle, c'est le [Banana pancake tr
 
 # Mon équipement
 
-![Photo du contenu de mon sac](../../assets/images/PXL_20261112_145931942.jpg)
+![Photo du contenu de mon sac](../../assets/images/PXL_20261112_145931942.webp)
 
 ### Liste
 
@@ -66,7 +66,7 @@ Pas de superflu, à mon sens en tout cas. 5.5kg sac compris.
 
 #  Le départ 
 
-![Moi à la gare de La Rochelle](../../assets/images/signal-2026-11-13-05-59-47-247.jpg)
+![Moi à la gare de La Rochelle](../../assets/images/signal-2026-11-13-05-59-47-247.webp)
 
 Le 13/11/2026 réveil à 4h40, TGV vers l'aéroport CDG et direction Bangkok :)
 
