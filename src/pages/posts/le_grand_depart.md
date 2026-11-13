@@ -1,11 +1,11 @@
 ---
 layout: ../../layouts/post.astro
-title: "Le grand départ"
+title: "Le grand départ vers l'Asie"
 pubDate: 2026-11-13
-description: "Ainsi je pars en Asie du Sud-est avec un sac de 5kg"
+description: "Ainsi je pars en Asie du Sud-est avec un sac de 5kg pour une durée inconnue"
 author: "Virgile"
 isPinned: false
-excerpt: ""
+excerpt: "Ainsi je pars en Asie du Sud-est avec un sac de 5kg pour une durée inconnue"
 image:
   src: "Photo du contenu de mon sac"
   alt: "../../assets/images/PXL_20261112_145931942.jpg"
@@ -14,7 +14,8 @@ tags: ["Voyage"]
 
 # Le projet
 
-Pour mon premier voyage solo, j'aspire à decouvrir le monde, apprendre de toutes les expériences, faire des rencontres, le tout sans organisation préalable. Je pars aujourd'hui et je n'ai prévu que mes deux premières nuits en auberge à Bangkok, le reste "reste à faire" :)
+Pour mon premier voyage solo, j'aspire à decouvrir le monde, apprendre de toutes les expériences, faire des rencontres, le tout sans organisation préalable. Je pars aujourd'hui et je n'ai prévu que mes deux premières nuits en auberge à Bangkok, le reste "reste à faire" :) 
+Pas de date retour.
 
 Cependant la ligne directrice, toute fine soit elle, c'est le [Banana pancake trail](https://fr.wikipedia.org/wiki/Banana_Pancake_Trail).
 
