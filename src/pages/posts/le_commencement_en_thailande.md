@@ -18,8 +18,8 @@ Je doit dire que la seule journée complète que j'ai passé dans la capitale (a
 
 J'ai tous de même pû avoir un premier regard sur la ville, à travers le Chatuchak Weekend Market, un moment en bateau, mon premier Grab (Uber local) et une pluie torrentielle en milieu d'après midi :)
 
-![Chatuchak Weekend Market](../../assets/images/PXL_20261115_054554665.jpg)
-![bateau Bangkok](../../assets/images/PXL_20261115_070305437.jpg)
+![Chatuchak Weekend Market](../../assets/images/PXL_20261115_054554665.webp)
+![bateau Bangkok](../../assets/images/PXL_20261115_070305437.webp)
 
 Mais, j'ai vite pris la décision de quitter cette ville trop grosse pour moi (pour le moment) pour me diriger vers l'ancienne capitale Ayutthaya !
 
@@ -28,7 +28,7 @@ Mais, j'ai vite pris la décision de quitter cette ville trop grosse pour moi (p
 
 C'est après une heure de train en troisième classe, que j'arrive dans cette petite ville.
 
-![arrivé à Ayutthaya](../../assets/images/PXL_20261116_043949630.jpg)
+![arrivé à Ayutthaya](../../assets/images/PXL_20261116_043949630.webp)
 
 Ville très différente de Bangkok, on sent la campagne, plus vraiment de trottoirs, plus vraiment de touristes, bien plus d'authenticité d'après moi.
 
@@ -36,11 +36,11 @@ Je me suis posé à l'auberge [Early Bird](https://hostelworld.onelink.me/Jqot/h
 
 Mon premier temple, une balade de bateau autour de la ville, le Night Market, le Floting Market... Mais aussi du velo ! 
 
-![temple Ayutthaya](../../assets/images/PXL_20261116_092809164.jpg)
-![bateau Ayutthaya](../../assets/images/PXL_20261116_102210065.jpg)
-![Avec Mat et Anaïs en bateau](../../assets/images/908651511_1143142568087494_9196128764700901061_n.jpg)
-![Floting Market Ayutthaya](../../assets/images/PXL_20261117_091032189.jpg)
-![velo Ayutthaya sur pont](../../assets/images/PXL_20261117_050424011.jpg)
+![temple Ayutthaya](../../assets/images/PXL_20261116_092809164.webp)
+![bateau Ayutthaya](../../assets/images/PXL_20261116_102210065.webp)
+![Avec Mat et Anaïs en bateau](../../assets/images/908651511_1143142568087494_9196128764700901061_n.webp)
+![Floting Market Ayutthaya](../../assets/images/PXL_20261117_091032189.webp)
+![velo Ayutthaya sur pont](../../assets/images/PXL_20261117_050424011.webp)
 
 Après ces deux superbe journée et des discussions le soir devant l'auberge, j'ai l'impression d'avoir fait le tour de cette petite ville et je prends un bus de nuit vers Chang Mai.
 
