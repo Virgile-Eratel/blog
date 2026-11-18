@@ -70,6 +70,15 @@ Pas de superflu, à mon sens en tout cas. 5.5kg sac compris.
 
 Le 13/11/2026 réveil à 4h40, TGV vers l'aéroport CDG et direction Bangkok :)
 
+Après près de 15h de vol assez inconfortable...
+![avion](../../assets/images/PXL_20261114_092141476.jpg)
 
-*To be continued...*
+Me voici à Bangkok, accueilli par un climat inconnu extrêmement chaud et humide, mais surtout une ville gargantuesque.
+
+![bangkok](../../assets/images/PXL_20261114_121454882.jpg)
+
+Et je retrouve ma première auberge de jeunesse, qui vont me suivre tout au long du voyage. Première nuit en autonomie dans un pays lointain, palpitant !
+
+
+Pour la suite voir [Le commencement en Thaïlande](le_commencement_en_thailande.md)
 
