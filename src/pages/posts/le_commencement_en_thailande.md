@@ -42,9 +42,9 @@ Mon premier temple, une balade de bateau autour de la ville, le Night Market, le
 ![Floting Market Ayutthaya](../../assets/images/PXL_20261117_091032189.webp)
 ![velo Ayutthaya sur pont](../../assets/images/PXL_20261117_050424011.webp)
 
-Après ces deux superbe journée et des discussions le soir devant l'auberge, j'ai l'impression d'avoir fait le tour de cette petite ville et je prends un bus de nuit vers Chang Mai.
+Après ces deux superbe journée et des discussions le soir devant l'auberge, j'ai l'impression d'avoir fait le tour de cette petite ville et je prends un bus de nuit vers Chiang Mai.
 
-# Chang Mai
+# Chiang Mai
 ### *(18/11/26 - ?)*
 
 

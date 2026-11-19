@@ -77,7 +77,7 @@ Me voici à Bangkok, accueilli par un climat inconnu extrêmement chaud et humid
 
 ![bangkok](../../assets/images/PXL_20261114_121454882.webp)
 
-Et je retrouve ma première auberge de jeunesse, qui vont me suivre tout au long du voyage. Première nuit en autonomie dans un pays lointain, palpitant !
+Et je retrouve ma première auberge de jeunesse, première nuit en autonomie dans un pays lointain, palpitant !
 
 
 Pour la suite, voir [Le commencement en Thaïlande](https://virgilemarty.fr/posts/le_commencement_en_thailande/) !
